@@ -2710,9 +2710,9 @@ augroup END
 endif
 
 if !has_key(g:polyglot_is_disabled, 'sensible')
-  " Use 2-spaces tab indentation by default
+  " Use 1-spaces tab indentation by default
   if &tabstop == 8
-    let &tabstop = 2
+    let &tabstop = 1
   endif
 
   " Set shiftwidth to proper value as users often mix it with tabstop

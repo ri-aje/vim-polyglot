@@ -2790,7 +2790,7 @@ if !has_key(g:polyglot_is_disabled, 'autoindent')
     let spaces_minus_tabs = 0
     let lineno = 0
     let stack = [0]
-    let indents = { '2': 0, '3': 0, '4': 0, '6': 0, '8': 0 }
+    let indents = { '1': 0, '2': 0, '3': 0, '4': 0, '6': 0, '8': 0 }
 
     for line in a:lines
       let lineno += 1
